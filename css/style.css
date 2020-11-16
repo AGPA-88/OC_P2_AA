@@ -1,49 +1,30 @@
 body {
-    background-color: lightskyblue;
-    
+    margin: 0;
+    padding: 0;
 
 }
 
-h1 {
-    color: darkblue;
-    font-family: serif;
-    font-size: xx-large;
-    text-align: center;
-    margin: 1.5%;
-}
-
-h2 {
-    color: white;
-    background-color: orange;
-    font-family: monospace;
-    font-weight: bold;
-    text-align: center;
-    margin: 1%;
-    border: thick black solid;
-    border-radius: 25%;
-}
-
-li {
-    letter-spacing: 0.2em;
-    line-height: 2em;
-    text-align: center;
-}
-
-/* unvisited link */
-a:link {
-    color: darkblue;
-    text-decoration: none
-  }
+nav {
+  border: 1px solid black;
+  width: 100%;
+  min-height: 50px;
   
-  /* visited link */
-  a:visited {
-    color: darkgreen;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-    text-decoration: underline dotted gold;
-    background-color: white; 
-    
-  }
+}
+
+#search_bar {
+  border: 1px solid black;
+  width: 100%;
+  min-height: 150px;
+}
+
+main {
+  border: 1px solid black;
+  width: 100%;
+  min-height: 400px;
+}
+
+#footer {
+  border: 1px solid black;
+  width: 100%;
+  min-height: 200px;
+}
