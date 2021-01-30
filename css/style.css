@@ -194,7 +194,6 @@ header {
   width: 15px;
   text-align:center ;
   position: relative;
-  top: -20px;
 }
 
 .info_text{
@@ -632,16 +631,24 @@ footer a {
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1023px) {
 
   nav{
     width: 100%;
+  
   }
 
+  header {
+    padding: 0;
+  }
   #sign_up{
     order: 2;
     width: 28%;
     margin-top: 2px;
+  }
+
+  #sign_up a{
+    margin-left: 30px;
   }
 
   #logo_box{
@@ -649,18 +656,19 @@ footer a {
   }
   
   #links {
+    display: flex;
     width: 100%;
     order: 3;
     padding: 0;
     margin: 0;
     border: none;
+    text-align: start;
   }
 
   #links a{
-    display: inline-block;
-    width: 49%;
-    margin: 0;
-    padding: 0;
+    width: 50%;
+    margin: 0 ;
+    padding: 0 ;
     text-align: center;
     border-bottom: 1px solid #ccc;
   }
@@ -668,6 +676,10 @@ footer a {
   #links a.active{
     border-bottom: 1px solid blue;
     border-top: none;
+  }
+
+  #links :nth-child(2){
+    margin-left: 0; 
   }
 
   #search_bar i{
@@ -750,10 +762,12 @@ footer a {
     width: 100%;
     order: 2;
     background-color: white;
+    
   }
 
   #accom_list h3{
     margin-left: 10px;
+    
   }
 
   #list {
@@ -761,6 +775,7 @@ footer a {
     flex-direction: column;
     margin: 20px 0 20px 0;
     padding: 0;
+    
   }
 
   .show_more{
@@ -772,10 +787,6 @@ footer a {
     margin-left: -15px;
     margin-bottom: 15px;
     border-radius: 0;
-    
-  }
-
-  #chart{
     
   }
 
@@ -809,7 +820,7 @@ footer a {
   #activities_list {
     display: flex;
     flex-direction: column; 
-    margin: 15px auto;
+    margin: 15px auto 50px auto;
     width: 90%;
     order: 3;
   }
@@ -822,14 +833,20 @@ footer a {
     height: 150px;
   }
 
+  .act5{
+    margin-top: 0;
+  }
+
   #footer {
     display: flex;
-    flex-direction: column;
-  
+    flex-direction: column;  
+
   }
 
   #about, #our_acco, #assistance{
-    width: 100%;
-  }
+    width: 90%;
+    margin: 20px;
 
+  }
+  
 }
