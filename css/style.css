@@ -305,37 +305,37 @@ header {
 }
 
 #acc1 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/aim1.jpg");
+  background-image: url("../html_images/aim1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #acc2 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/aim2.jpg");
+  background-image: url("../html_images/aim2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #acc3 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/aim3.jpg");
+  background-image: url("../html_images/aim3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #acc4 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/aim4.jpg");
+  background-image: url("../html_images/aim4.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #acc5 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/aim5.jpg");
+  background-image: url("../html_images/aim5.jpg");
   background-size: cover;
   background-position: center;
 }
 
 #acc6 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/aim6.jpg");
+  background-image: url("../html_images/aim6.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -414,19 +414,19 @@ header {
 }
 
 #mp1 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/mp1.jpg");
+  background-image: url("../html_images/mp1.jpg");
   background-size: cover;
   background-position: center;  
 }
 
 #mp2 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/mp2.jpg");
+  background-image: url("../html_images/mp2.jpg");
   background-size: cover;
   background-position: center;  
 }
 
 #mp3 {
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/mp3.jpg");
+  background-image: url("../html_images/mp3.jpg");
   background-size: cover;
   background-position: center;  
 }
@@ -469,7 +469,7 @@ header {
 }
 
 .act_image_1{
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/act1.jpg");
+  background-image: url("../html_images/act1.jpg");
   background-position: center;
   background-size: cover;
   height: 360px;
@@ -484,7 +484,7 @@ header {
 }
 
 .act_image_2{
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/act2.jpg");
+  background-image: url("../html_images/act2.jpg");
   background-position: center;
   background-size: cover;
   height: 170px;
@@ -500,7 +500,7 @@ header {
 }
 
 .act_image_3{
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/act3.jpg");
+  background-image: url("../html_images/act3.jpg");
   background-position: center;
   background-size: cover;
   height: 135px;
@@ -518,7 +518,7 @@ header {
 }
 
 .act_image_4{
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/act4.jpg");
+  background-image: url("../html_images/act4.jpg");
   background-position: center;
   background-size: cover;
   height: 360px;
@@ -536,7 +536,7 @@ header {
 }
 
 .act_image_5{
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/act5.jpg");
+  background-image: url("../html_images/act5.jpg");
   background-position: center;
   background-size: cover;
   height: 110px;
@@ -552,7 +552,7 @@ header {
 }
 
 .act_image_6{
-  background-image: url("D:/OC/GitHub/OC_P2_AA/html_images/act6.jpg");
+  background-image: url("../html_images/act6.jpg");
   background-position: center;
   background-size: cover;
   height: 135px;
