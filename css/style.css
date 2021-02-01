@@ -729,7 +729,7 @@ footer a {
 
   #info{
     display: flex;
-    align-items: top;
+    
     padding: 15px;
   }
   
@@ -738,7 +738,7 @@ footer a {
     border-radius: 50%;
     height: 1px;
     width: 1px;
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: xx-small;
     
   }
@@ -747,7 +747,6 @@ footer a {
     display: flex;
     flex-direction: row;
     width: 100%;
-    align-items: top;
     margin-top: 10px;
     padding-left: 5px;
   }
@@ -790,8 +789,20 @@ footer a {
     
   }
 
+  .mostpop_title{
+    margin: 10px 0 0 0;
+  }
+
+  .mostpop_price{
+    margin: 10px 0 0 0;
+  }
+
+  .mostpop_rating{
+    margin: 30px 0 10px 0;
+  }
+
   .mostpop_title_icon{
-    margin-left: -10px;
+    margin-left: -20px;
   }
   
   #mostpop_list {
