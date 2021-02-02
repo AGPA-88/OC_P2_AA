@@ -13,6 +13,11 @@ main {
 
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 #wrapper {
   margin: 0 auto;
 /*  display: grid;
@@ -59,7 +64,8 @@ header {
 }
 
 #links a.active{
-  border-top: 1px solid blue;
+  border-top: 1px solid #0065fc;
+  color: #0065fc;
 }
 
 #sign_up a{
@@ -69,6 +75,7 @@ header {
   line-height: 60px;
   text-decoration: none;
   font-weight: bold;
+  color: #0065fc;
 }
 
 /* SEARCH SECTION */
@@ -178,8 +185,12 @@ header {
   color: black;
   font-weight: 600;
   font-size: 1em;
+
 }
 
+.filter_element:hover{
+  background-color: #0065fc;
+}
 /* INFO ICON */
 
 #info{
@@ -194,6 +205,7 @@ header {
   width: 15px;
   text-align:center ;
   position: relative;
+  top: -10px;
 }
 
 .info_text{
@@ -736,8 +748,8 @@ footer a {
   #info i{
     padding: 10px;
     border-radius: 50%;
-    height: 1px;
-    width: 1px;
+    height: 5px;
+    width: 5px;
     margin-top: 15px;
     font-size: xx-small;
     
