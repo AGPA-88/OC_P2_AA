@@ -869,11 +869,6 @@ footer a {
     height: 150px;
   }
 
-  .act_image_1, .act_image_2, .act_image_3, .act_image_4, .act_image_5, .act_image_6:hover{
-    
-    transform: scale(1.3);
-  }
-
   .act5{
     margin-top: 0;
   }
