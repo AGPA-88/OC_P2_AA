@@ -12,7 +12,7 @@ Objectives:
 Requirements:
 
 	- Responsive behavior (desktop | mobile | tablet);
-  - Image selection regarding most suitable format concerning resolution and loading time;
+	- Image selection regarding most suitable format concerning resolution and loading time;
 	- Icons from the Font Awesome library;
 	- Colors (#0065FC blue| #DEEBFF light blue| #F2F2 grey);
 	- Font used is Raleway;
