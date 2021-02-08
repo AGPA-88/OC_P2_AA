@@ -727,7 +727,6 @@ footer a {
     background-color: #0065fc;
     border-radius: 10px;
     margin-left: -5px;
- 
   }
 
   .short_search i{
@@ -835,8 +834,6 @@ footer a {
     flex-direction: column;
     order: 1;
     padding: 0;
-
-    
   }
 
   .mostpop_listing {
